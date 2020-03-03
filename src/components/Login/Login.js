@@ -18,7 +18,13 @@ export const Login = () => {
       <Heading>Welcome to Ground Zero</Heading>
       <Text align="center">Please login to continue</Text>
       <Box align="center" pad="medium">
-        <Button id="loginBtn" primary color="#0D0221" onClick={handleRedirect} label="Log In" />
+        <Button
+          id="loginBtn"
+          primary
+          color="#0D0221"
+          onClick={handleRedirect}
+          label="Log In"
+        />
       </Box>
     </Box>
   );
