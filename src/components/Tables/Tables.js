@@ -1,105 +1,108 @@
-import React from "react";
+import React, { useState } from "react";
 import {
   Table,
   TableHeader,
-  TableFooter,
-  TableBody,
   TableRow,
+  TableBody,
   TableCell,
-  Text
+  TextInput,
+  Button,
+  Box
 } from "grommet";
+import Fuse from "fuse.js";
 
-const DATA = [
-  {
-    id: 1,
-    name: "Eric",
-    email: "eric@local",
-    amount: 3775
-  },
-  {
-    id: 2,
-    name: "Chris",
-    email: "chris@local",
-    amount: 5825
-  },
-  {
-    id: 3,
-    name: "Alan",
-    email: "alan@local",
-    amount: 4300
-  }
-];
+export const Tables = () => {
+  const [list] = useState([
+    {
+      id: 1,
+      projectId: "RNH",
+      projectName: "Realtor New Homes"
+    },
+    {
+      id: 2,
+      projectId: "VW",
+      projectName: "Verizon Wireless"
+    },
+    {
+      id: 3,
+      projectId: "MCP",
+      projectName: "Mastercard Cashless Payments"
+    }
+  ]);
 
-let TOTAL = 0;
-DATA.forEach(datum => {
-  TOTAL += datum.amount;
-});
+  const [user, setUser] = useState([2, 3]);
 
-const amountFormatter = new Intl.NumberFormat("en-US", {
-  style: "currency",
-  currency: "USD",
-  minimumFractionDigits: 2
-});
+  let dupUser = [...user];
 
-const COLUMNS = [
-  {
-    property: "name",
-    label: "Name",
-    dataScope: "row",
-    format: datum => <strong>{datum.name}</strong>
-  },
-  {
-    property: "email",
-    label: "Email"
-  },
-  {
-    property: "amount",
-    label: "Amount",
-    align: "end",
-    footer: amountFormatter.format(TOTAL / 100),
-    format: datum => amountFormatter.format(datum.amount / 100)
-  }
-];
+  const [query, setQuery] = useState("");
 
-export const Tables = props => {
+  const options = {
+    shouldSort: true,
+    threshold: 0.2,
+    maxPatternLength: 32,
+    minMatchCharLength: 1,
+    keys: ["projectId", "projectName"]
+  };
+  let fuse = new Fuse(list, options);
+
+  const data = query ? fuse.search(query) : list;
+
   return (
-    <div>
-      <Table caption="Simple Table">
-        <TableHeader>
-          <TableRow>
-            {COLUMNS.map(c => (
-              <TableCell
-                key={c.property}
-                scope="col"
-                border="bottom"
-                align={c.align}
-              >
-                <Text>{c.label}</Text>
+    <Box align="center" gap="medium">
+      <Box width="xlarge">
+        <TextInput
+          placeholder="start typing your project name"
+          onChange={event => setQuery(event.target.value)}
+        />
+      </Box>
+      <Box width="large" align="center" direction="row-responsive">
+        <Table>
+          <TableHeader>
+            <TableRow>
+              <TableCell scope="col" border="bottom">
+                Project ID
               </TableCell>
-            ))}
-          </TableRow>
-        </TableHeader>
-        <TableBody>
-          {DATA.map(datum => (
-            <TableRow key={datum.id}>
-              {COLUMNS.map(c => (
-                <TableCell key={c.property} scope={c.dataScope} align={c.align}>
-                  <Text>{c.format ? c.format(datum) : datum[c.property]}</Text>
-                </TableCell>
-              ))}
+              <TableCell scope="col" border="bottom">
+                Project Name
+              </TableCell>
             </TableRow>
-          ))}
-        </TableBody>
-        <TableFooter>
-          <TableRow>
-            {COLUMNS.map(c => (
-              <TableCell key={c.property} border="top" align={c.align}>
-                <Text>{c.footer}</Text>
-              </TableCell>
-            ))}
-          </TableRow>
-        </TableFooter>
-      </Table>
-    </div>
+          </TableHeader>
+          <TableBody>
+            {data.map((item, _index) => {
+              return (
+                <TableRow key={item.id}>
+                  <TableCell scope="row">
+                    <strong>{item.projectId}</strong>
+                  </TableCell>
+                  <TableCell>{item.projectName}</TableCell>
+                  <TableCell>
+                    <Button
+                      label={
+                        dupUser.indexOf(item.id) === -1
+                          ? "Subscribe"
+                          : "Unsubscribe"
+                      }
+                      value={item.id}
+                      color="#55CCCC"
+                      onClick={
+                        dupUser.indexOf(item.id) === -1
+                          ? () => {
+                              dupUser.push(item.id);
+                              setUser(dupUser);
+                            }
+                          : () => {
+                              dupUser.splice(dupUser.indexOf(item.id), 1);
+                              setUser(dupUser);
+                            }
+                      }
+                    />
+                  </TableCell>
+                </TableRow>
+              );
+            })}
+          </TableBody>
+        </Table>
+      </Box>
+    </Box>
   );
 };

@@ -1,7 +1,7 @@
 import React from "react";
 import { Anchor, Box, Header, Nav } from "grommet";
 
-import { Logout } from "../Logout"
+import { Logout } from "../Logout";
 
 export const NavBar = ({ logoutHandler }) => {
   return (
