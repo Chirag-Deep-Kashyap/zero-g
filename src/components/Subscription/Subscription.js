@@ -8,13 +8,9 @@ import {
   TableCell,
   TextInput,
   Button,
-<<<<<<< HEAD
-  Box
-=======
   Box,
   Accordion,
   AccordionPanel
->>>>>>> 3797fc0713e4d0575faf47c513fbd990ae88595b
 } from "grommet";
 import theme from "../../utils/theme";
 
@@ -28,14 +24,6 @@ export const Subscription = () => {
       {
         id: 1,
         key: "RNH",
-<<<<<<< HEAD
-        name: "Realtor New Homes"
-      },
-      {
-        id: 2,
-        key: "VW",
-        name: "Verizon Wireless"
-=======
         name: "Realtor New Homes",
         boards: [
           {
@@ -66,19 +54,10 @@ export const Subscription = () => {
             b_name: "Board 2"
           }
         ]
->>>>>>> 3797fc0713e4d0575faf47c513fbd990ae88595b
       },
       {
         id: 3,
         key: "MCP",
-<<<<<<< HEAD
-        name: "Mastercard Cashless Payments"
-      },
-      {
-        id: 4,
-        key: "ZG",
-        name: "Zero-G"
-=======
         name: "Mastercard Cashless Payments",
         boards: [
           {
@@ -109,7 +88,6 @@ export const Subscription = () => {
             b_name: "Board 2"
           }
         ]
->>>>>>> 3797fc0713e4d0575faf47c513fbd990ae88595b
       }
     ]);
     setSubscriptions([1, 3]);
@@ -138,62 +116,6 @@ export const Subscription = () => {
             autoFocus
           />
         </Box>
-<<<<<<< HEAD
-        <Box>
-          <Table>
-            <TableHeader>
-              <TableRow>
-                <TableCell scope="col" border="bottom">
-                  Project ID
-                </TableCell>
-                <TableCell scope="col" border="bottom">
-                  Project Name
-                </TableCell>
-              </TableRow>
-            </TableHeader>
-            <TableBody>
-              {data.map((item, _index) => {
-                return (
-                  <TableRow key={item.id}>
-                    <TableCell scope="row">
-                      <strong>{item.key}</strong>
-                    </TableCell>
-                    <TableCell>{item.name}</TableCell>
-                    <TableCell>
-                      <Button
-                        label={
-                          dupSubscriptions.indexOf(item.id) === -1
-                            ? "Subscribe"
-                            : "Unsubscribe"
-                        }
-                        value={item.id}
-                        primary
-                        color={
-                          dupSubscriptions.indexOf(item.id) === -1
-                            ? "#03fc98"
-                            : "#fcba03"
-                        }
-                        onClick={
-                          dupSubscriptions.indexOf(item.id) === -1
-                            ? () => {
-                                dupSubscriptions.push(item.id);
-                                setSubscriptions(dupSubscriptions);
-                              }
-                            : () => {
-                                dupSubscriptions.splice(
-                                  dupSubscriptions.indexOf(item.id),
-                                  1
-                                );
-                                setSubscriptions(dupSubscriptions);
-                              }
-                        }
-                      />
-                    </TableCell>
-                  </TableRow>
-                );
-              })}
-            </TableBody>
-=======
 
         <Box>
           <Table>
@@ -278,7 +200,6 @@ export const Subscription = () => {
                 })}
               </TableBody>
             </Accordion>
->>>>>>> 3797fc0713e4d0575faf47c513fbd990ae88595b
           </Table>
         </Box>
       </Box>
