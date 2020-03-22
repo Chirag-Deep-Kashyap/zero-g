@@ -39,20 +39,7 @@ export const AllSprintsA = () => {
                     width="stretch"
                   >
                     <Text alignSelf="center" color="custom" weight="bold">
-                      Velocity2
-                    </Text>
-                    <Text alignSelf="center" color="custom" weight="bold">
-                      N
-                    </Text>
-                  </Box>
-                  <Box
-                    pad="medium"
-                    border={{ side: "all", color: "black", size: "medium" }}
-                    background="white"
-                    width="stretch"
-                  >
-                    <Text alignSelf="center" color="custom" weight="bold">
-                      Velocity3
+                      Committed
                     </Text>
                     <Text alignSelf="center" color="custom" weight="bold">
                       N
@@ -71,6 +58,19 @@ export const AllSprintsA = () => {
                       N
                     </Text>
                   </Box>
+                  <Box
+                    pad="medium"
+                    border={{ side: "all", color: "black", size: "medium" }}
+                    background="white"
+                    width="stretch"
+                  >
+                    <Text alignSelf="center" color="custom" weight="bold">
+                      Cycle Time
+                    </Text>
+                    <Text alignSelf="center" color="custom" weight="bold">
+                      N
+                    </Text>
+                  </Box>
                 </Box>
                 <Box gap="small" direction="row">
                   <Box
@@ -80,7 +80,7 @@ export const AllSprintsA = () => {
                     width="stretch"
                   >
                     <Text alignSelf="center" color="custom" weight="bold">
-                      Velocity
+                      Daily StandUp
                     </Text>
                     <Text alignSelf="center" color="custom" weight="bold">
                       N
@@ -93,7 +93,7 @@ export const AllSprintsA = () => {
                     width="stretch"
                   >
                     <Text alignSelf="center" color="custom" weight="bold">
-                      Velocity
+                      Code Smells
                     </Text>
                     <Text alignSelf="center" color="custom" weight="bold">
                       N
@@ -106,7 +106,7 @@ export const AllSprintsA = () => {
                     width="stretch"
                   >
                     <Text alignSelf="center" color="custom" weight="bold">
-                      Committed
+                      Daily Scrum
                     </Text>
                     <Text alignSelf="center" color="custom" weight="bold">
                       N
@@ -119,7 +119,7 @@ export const AllSprintsA = () => {
                     width="stretch"
                   >
                     <Text alignSelf="center" color="custom" weight="bold">
-                      Cycle Time
+                      Story Grooming
                     </Text>
                     <Text alignSelf="center" color="custom" weight="bold">
                       N
@@ -158,20 +158,7 @@ export const AllSprintsA = () => {
                     width="stretch"
                   >
                     <Text alignSelf="center" color="custom" weight="bold">
-                      Velocity2
-                    </Text>
-                    <Text alignSelf="center" color="custom" weight="bold">
-                      N
-                    </Text>
-                  </Box>
-                  <Box
-                    pad="medium"
-                    border={{ side: "all", color: "black", size: "medium" }}
-                    background="white"
-                    width="stretch"
-                  >
-                    <Text alignSelf="center" color="custom" weight="bold">
-                      Velocity3
+                      Committed
                     </Text>
                     <Text alignSelf="center" color="custom" weight="bold">
                       N
@@ -190,6 +177,19 @@ export const AllSprintsA = () => {
                       N
                     </Text>
                   </Box>
+                  <Box
+                    pad="medium"
+                    border={{ side: "all", color: "black", size: "medium" }}
+                    background="white"
+                    width="stretch"
+                  >
+                    <Text alignSelf="center" color="custom" weight="bold">
+                      Cycle Time
+                    </Text>
+                    <Text alignSelf="center" color="custom" weight="bold">
+                      N
+                    </Text>
+                  </Box>
                 </Box>
                 <Box gap="small" direction="row">
                   <Box
@@ -199,7 +199,7 @@ export const AllSprintsA = () => {
                     width="stretch"
                   >
                     <Text alignSelf="center" color="custom" weight="bold">
-                      Velocity
+                      Daily StandUp
                     </Text>
                     <Text alignSelf="center" color="custom" weight="bold">
                       N
@@ -212,7 +212,7 @@ export const AllSprintsA = () => {
                     width="stretch"
                   >
                     <Text alignSelf="center" color="custom" weight="bold">
-                      Velocity
+                      Code Smells
                     </Text>
                     <Text alignSelf="center" color="custom" weight="bold">
                       N
@@ -225,7 +225,7 @@ export const AllSprintsA = () => {
                     width="stretch"
                   >
                     <Text alignSelf="center" color="custom" weight="bold">
-                      Committed
+                      Daily Scrum
                     </Text>
                     <Text alignSelf="center" color="custom" weight="bold">
                       N
@@ -238,7 +238,7 @@ export const AllSprintsA = () => {
                     width="stretch"
                   >
                     <Text alignSelf="center" color="custom" weight="bold">
-                      Cycle Time
+                      Story Grooming
                     </Text>
                     <Text alignSelf="center" color="custom" weight="bold">
                       N
@@ -277,20 +277,7 @@ export const AllSprintsA = () => {
                     width="stretch"
                   >
                     <Text alignSelf="center" color="custom" weight="bold">
-                      Velocity2
-                    </Text>
-                    <Text alignSelf="center" color="custom" weight="bold">
-                      N
-                    </Text>
-                  </Box>
-                  <Box
-                    pad="medium"
-                    border={{ side: "all", color: "black", size: "medium" }}
-                    background="white"
-                    width="stretch"
-                  >
-                    <Text alignSelf="center" color="custom" weight="bold">
-                      Velocity3
+                      Committed
                     </Text>
                     <Text alignSelf="center" color="custom" weight="bold">
                       N
@@ -309,6 +296,19 @@ export const AllSprintsA = () => {
                       N
                     </Text>
                   </Box>
+                  <Box
+                    pad="medium"
+                    border={{ side: "all", color: "black", size: "medium" }}
+                    background="white"
+                    width="stretch"
+                  >
+                    <Text alignSelf="center" color="custom" weight="bold">
+                      Cycle Time
+                    </Text>
+                    <Text alignSelf="center" color="custom" weight="bold">
+                      N
+                    </Text>
+                  </Box>
                 </Box>
                 <Box gap="small" direction="row">
                   <Box
@@ -318,12 +318,64 @@ export const AllSprintsA = () => {
                     width="stretch"
                   >
                     <Text alignSelf="center" color="custom" weight="bold">
-                      Velocity
+                      Daily StandUp
                     </Text>
                     <Text alignSelf="center" color="custom" weight="bold">
                       N
                     </Text>
                   </Box>
+                  <Box
+                    pad="medium"
+                    border={{ side: "all", color: "black", size: "medium" }}
+                    background="white"
+                    width="stretch"
+                  >
+                    <Text alignSelf="center" color="custom" weight="bold">
+                      Code Smells
+                    </Text>
+                    <Text alignSelf="center" color="custom" weight="bold">
+                      N
+                    </Text>
+                  </Box>
+                  <Box
+                    pad="medium"
+                    border={{ side: "all", color: "black", size: "medium" }}
+                    background="white"
+                    width="stretch"
+                  >
+                    <Text alignSelf="center" color="custom" weight="bold">
+                      Daily Scrum
+                    </Text>
+                    <Text alignSelf="center" color="custom" weight="bold">
+                      N
+                    </Text>
+                  </Box>
+                  <Box
+                    pad="medium"
+                    border={{ side: "all", color: "black", size: "medium" }}
+                    background="white"
+                    width="stretch"
+                  >
+                    <Text alignSelf="center" color="custom" weight="bold">
+                      Story Grooming
+                    </Text>
+                    <Text alignSelf="center" color="custom" weight="bold">
+                      N
+                    </Text>
+                  </Box>
+                </Box>
+              </Box>
+            </Box>
+          </AccordionPanel>
+          <AccordionPanel label="Sprint 4">
+            <Box direction="row" gap="small" width="stretch">
+              <Box
+                width="100%"
+                gap="small"
+                direction="column"
+                margin={{ vertical: "5%", right: "5%" }}
+              >
+                <Box gap="small" direction="row">
                   <Box
                     pad="medium"
                     border={{ side: "all", color: "black", size: "medium" }}
@@ -357,7 +409,312 @@ export const AllSprintsA = () => {
                     width="stretch"
                   >
                     <Text alignSelf="center" color="custom" weight="bold">
+                      Delivered
+                    </Text>
+                    <Text alignSelf="center" color="custom" weight="bold">
+                      N
+                    </Text>
+                  </Box>
+                  <Box
+                    pad="medium"
+                    border={{ side: "all", color: "black", size: "medium" }}
+                    background="white"
+                    width="stretch"
+                  >
+                    <Text alignSelf="center" color="custom" weight="bold">
                       Cycle Time
+                    </Text>
+                    <Text alignSelf="center" color="custom" weight="bold">
+                      N
+                    </Text>
+                  </Box>
+                </Box>
+                <Box gap="small" direction="row">
+                  <Box
+                    pad="medium"
+                    border={{ side: "all", color: "black", size: "medium" }}
+                    background="white"
+                    width="stretch"
+                  >
+                    <Text alignSelf="center" color="custom" weight="bold">
+                      Daily StandUp
+                    </Text>
+                    <Text alignSelf="center" color="custom" weight="bold">
+                      N
+                    </Text>
+                  </Box>
+                  <Box
+                    pad="medium"
+                    border={{ side: "all", color: "black", size: "medium" }}
+                    background="white"
+                    width="stretch"
+                  >
+                    <Text alignSelf="center" color="custom" weight="bold">
+                      Code Smells
+                    </Text>
+                    <Text alignSelf="center" color="custom" weight="bold">
+                      N
+                    </Text>
+                  </Box>
+                  <Box
+                    pad="medium"
+                    border={{ side: "all", color: "black", size: "medium" }}
+                    background="white"
+                    width="stretch"
+                  >
+                    <Text alignSelf="center" color="custom" weight="bold">
+                      Daily Scrum
+                    </Text>
+                    <Text alignSelf="center" color="custom" weight="bold">
+                      N
+                    </Text>
+                  </Box>
+                  <Box
+                    pad="medium"
+                    border={{ side: "all", color: "black", size: "medium" }}
+                    background="white"
+                    width="stretch"
+                  >
+                    <Text alignSelf="center" color="custom" weight="bold">
+                      Story Grooming
+                    </Text>
+                    <Text alignSelf="center" color="custom" weight="bold">
+                      N
+                    </Text>
+                  </Box>
+                </Box>
+              </Box>
+            </Box>
+          </AccordionPanel>
+          <AccordionPanel label="Sprint 5">
+            <Box direction="row" gap="small" width="stretch">
+              <Box
+                width="100%"
+                gap="small"
+                direction="column"
+                margin={{ vertical: "5%", right: "5%" }}
+              >
+                <Box gap="small" direction="row">
+                  <Box
+                    pad="medium"
+                    border={{ side: "all", color: "black", size: "medium" }}
+                    background="white"
+                    width="stretch"
+                  >
+                    <Text alignSelf="center" color="custom" weight="bold">
+                      Velocity
+                    </Text>
+                    <Text alignSelf="center" color="custom" weight="bold">
+                      N
+                    </Text>
+                  </Box>
+                  <Box
+                    pad="medium"
+                    border={{ side: "all", color: "black", size: "medium" }}
+                    background="white"
+                    width="stretch"
+                  >
+                    <Text alignSelf="center" color="custom" weight="bold">
+                      Committed
+                    </Text>
+                    <Text alignSelf="center" color="custom" weight="bold">
+                      N
+                    </Text>
+                  </Box>
+                  <Box
+                    pad="medium"
+                    border={{ side: "all", color: "black", size: "medium" }}
+                    background="white"
+                    width="stretch"
+                  >
+                    <Text alignSelf="center" color="custom" weight="bold">
+                      Delivered
+                    </Text>
+                    <Text alignSelf="center" color="custom" weight="bold">
+                      N
+                    </Text>
+                  </Box>
+                  <Box
+                    pad="medium"
+                    border={{ side: "all", color: "black", size: "medium" }}
+                    background="white"
+                    width="stretch"
+                  >
+                    <Text alignSelf="center" color="custom" weight="bold">
+                      Cycle Time
+                    </Text>
+                    <Text alignSelf="center" color="custom" weight="bold">
+                      N
+                    </Text>
+                  </Box>
+                </Box>
+                <Box gap="small" direction="row">
+                  <Box
+                    pad="medium"
+                    border={{ side: "all", color: "black", size: "medium" }}
+                    background="white"
+                    width="stretch"
+                  >
+                    <Text alignSelf="center" color="custom" weight="bold">
+                      Daily StandUp
+                    </Text>
+                    <Text alignSelf="center" color="custom" weight="bold">
+                      N
+                    </Text>
+                  </Box>
+                  <Box
+                    pad="medium"
+                    border={{ side: "all", color: "black", size: "medium" }}
+                    background="white"
+                    width="stretch"
+                  >
+                    <Text alignSelf="center" color="custom" weight="bold">
+                      Code Smells
+                    </Text>
+                    <Text alignSelf="center" color="custom" weight="bold">
+                      N
+                    </Text>
+                  </Box>
+                  <Box
+                    pad="medium"
+                    border={{ side: "all", color: "black", size: "medium" }}
+                    background="white"
+                    width="stretch"
+                  >
+                    <Text alignSelf="center" color="custom" weight="bold">
+                      Daily Scrum
+                    </Text>
+                    <Text alignSelf="center" color="custom" weight="bold">
+                      N
+                    </Text>
+                  </Box>
+                  <Box
+                    pad="medium"
+                    border={{ side: "all", color: "black", size: "medium" }}
+                    background="white"
+                    width="stretch"
+                  >
+                    <Text alignSelf="center" color="custom" weight="bold">
+                      Story Grooming
+                    </Text>
+                    <Text alignSelf="center" color="custom" weight="bold">
+                      N
+                    </Text>
+                  </Box>
+                </Box>
+              </Box>
+            </Box>
+          </AccordionPanel>
+          <AccordionPanel label="Sprint 6">
+            <Box direction="row" gap="small" width="stretch">
+              <Box
+                width="100%"
+                gap="small"
+                direction="column"
+                margin={{ vertical: "5%", right: "5%" }}
+              >
+                <Box gap="small" direction="row">
+                  <Box
+                    pad="medium"
+                    border={{ side: "all", color: "black", size: "medium" }}
+                    background="white"
+                    width="stretch"
+                  >
+                    <Text alignSelf="center" color="custom" weight="bold">
+                      Velocity
+                    </Text>
+                    <Text alignSelf="center" color="custom" weight="bold">
+                      N
+                    </Text>
+                  </Box>
+                  <Box
+                    pad="medium"
+                    border={{ side: "all", color: "black", size: "medium" }}
+                    background="white"
+                    width="stretch"
+                  >
+                    <Text alignSelf="center" color="custom" weight="bold">
+                      Committed
+                    </Text>
+                    <Text alignSelf="center" color="custom" weight="bold">
+                      N
+                    </Text>
+                  </Box>
+                  <Box
+                    pad="medium"
+                    border={{ side: "all", color: "black", size: "medium" }}
+                    background="white"
+                    width="stretch"
+                  >
+                    <Text alignSelf="center" color="custom" weight="bold">
+                      Delivered
+                    </Text>
+                    <Text alignSelf="center" color="custom" weight="bold">
+                      N
+                    </Text>
+                  </Box>
+                  <Box
+                    pad="medium"
+                    border={{ side: "all", color: "black", size: "medium" }}
+                    background="white"
+                    width="stretch"
+                  >
+                    <Text alignSelf="center" color="custom" weight="bold">
+                      Cycle Time
+                    </Text>
+                    <Text alignSelf="center" color="custom" weight="bold">
+                      N
+                    </Text>
+                  </Box>
+                </Box>
+                <Box gap="small" direction="row">
+                  <Box
+                    pad="medium"
+                    border={{ side: "all", color: "black", size: "medium" }}
+                    background="white"
+                    width="stretch"
+                  >
+                    <Text alignSelf="center" color="custom" weight="bold">
+                      Daily StandUp
+                    </Text>
+                    <Text alignSelf="center" color="custom" weight="bold">
+                      N
+                    </Text>
+                  </Box>
+                  <Box
+                    pad="medium"
+                    border={{ side: "all", color: "black", size: "medium" }}
+                    background="white"
+                    width="stretch"
+                  >
+                    <Text alignSelf="center" color="custom" weight="bold">
+                      Code Smells
+                    </Text>
+                    <Text alignSelf="center" color="custom" weight="bold">
+                      N
+                    </Text>
+                  </Box>
+                  <Box
+                    pad="medium"
+                    border={{ side: "all", color: "black", size: "medium" }}
+                    background="white"
+                    width="stretch"
+                  >
+                    <Text alignSelf="center" color="custom" weight="bold">
+                      Daily Scrum
+                    </Text>
+                    <Text alignSelf="center" color="custom" weight="bold">
+                      N
+                    </Text>
+                  </Box>
+                  <Box
+                    pad="medium"
+                    border={{ side: "all", color: "black", size: "medium" }}
+                    background="white"
+                    width="stretch"
+                  >
+                    <Text alignSelf="center" color="custom" weight="bold">
+                      Story Grooming
                     </Text>
                     <Text alignSelf="center" color="custom" weight="bold">
                       N
