@@ -1,0 +1,374 @@
+import React from "react";
+import { Accordion, AccordionPanel, Box, Header } from "grommet";
+import { Text } from "grommet";
+
+export const AllSprintsA = () => {
+  return (
+    <div>
+      <Box fill="horizontal">
+        <Header background="#f5f5f5" direction="column" gap="none">
+          <h2>Realtor New Homes - Board A</h2>
+        </Header>
+        <Accordion animate={true} multiple={true} margin="small">
+          <AccordionPanel label="Sprint 1">
+            <Box direction="row" gap="small" width="stretch">
+              <Box
+                width="100%"
+                gap="small"
+                direction="column"
+                margin={{ vertical: "5%", right: "5%" }}
+              >
+                <Box gap="small" direction="row">
+                  <Box
+                    pad="medium"
+                    border={{ side: "all", color: "black", size: "medium" }}
+                    background="white"
+                    width="stretch"
+                  >
+                    <Text alignSelf="center" color="custom" weight="bold">
+                      Velocity
+                    </Text>
+                    <Text alignSelf="center" color="custom" weight="bold">
+                      N
+                    </Text>
+                  </Box>
+                  <Box
+                    pad="medium"
+                    border={{ side: "all", color: "black", size: "medium" }}
+                    background="white"
+                    width="stretch"
+                  >
+                    <Text alignSelf="center" color="custom" weight="bold">
+                      Velocity2
+                    </Text>
+                    <Text alignSelf="center" color="custom" weight="bold">
+                      N
+                    </Text>
+                  </Box>
+                  <Box
+                    pad="medium"
+                    border={{ side: "all", color: "black", size: "medium" }}
+                    background="white"
+                    width="stretch"
+                  >
+                    <Text alignSelf="center" color="custom" weight="bold">
+                      Velocity3
+                    </Text>
+                    <Text alignSelf="center" color="custom" weight="bold">
+                      N
+                    </Text>
+                  </Box>
+                  <Box
+                    pad="medium"
+                    border={{ side: "all", color: "black", size: "medium" }}
+                    background="white"
+                    width="stretch"
+                  >
+                    <Text alignSelf="center" color="custom" weight="bold">
+                      Delivered
+                    </Text>
+                    <Text alignSelf="center" color="custom" weight="bold">
+                      N
+                    </Text>
+                  </Box>
+                </Box>
+                <Box gap="small" direction="row">
+                  <Box
+                    pad="medium"
+                    border={{ side: "all", color: "black", size: "medium" }}
+                    background="white"
+                    width="stretch"
+                  >
+                    <Text alignSelf="center" color="custom" weight="bold">
+                      Velocity
+                    </Text>
+                    <Text alignSelf="center" color="custom" weight="bold">
+                      N
+                    </Text>
+                  </Box>
+                  <Box
+                    pad="medium"
+                    border={{ side: "all", color: "black", size: "medium" }}
+                    background="white"
+                    width="stretch"
+                  >
+                    <Text alignSelf="center" color="custom" weight="bold">
+                      Velocity
+                    </Text>
+                    <Text alignSelf="center" color="custom" weight="bold">
+                      N
+                    </Text>
+                  </Box>
+                  <Box
+                    pad="medium"
+                    border={{ side: "all", color: "black", size: "medium" }}
+                    background="white"
+                    width="stretch"
+                  >
+                    <Text alignSelf="center" color="custom" weight="bold">
+                      Committed
+                    </Text>
+                    <Text alignSelf="center" color="custom" weight="bold">
+                      N
+                    </Text>
+                  </Box>
+                  <Box
+                    pad="medium"
+                    border={{ side: "all", color: "black", size: "medium" }}
+                    background="white"
+                    width="stretch"
+                  >
+                    <Text alignSelf="center" color="custom" weight="bold">
+                      Cycle Time
+                    </Text>
+                    <Text alignSelf="center" color="custom" weight="bold">
+                      N
+                    </Text>
+                  </Box>
+                </Box>
+              </Box>
+            </Box>
+          </AccordionPanel>
+          <AccordionPanel label="Sprint 2">
+            <Box direction="row" gap="small" width="stretch">
+              <Box
+                width="100%"
+                gap="small"
+                direction="column"
+                margin={{ vertical: "5%", right: "5%" }}
+              >
+                <Box gap="small" direction="row">
+                  <Box
+                    pad="medium"
+                    border={{ side: "all", color: "black", size: "medium" }}
+                    background="white"
+                    width="stretch"
+                  >
+                    <Text alignSelf="center" color="custom" weight="bold">
+                      Velocity
+                    </Text>
+                    <Text alignSelf="center" color="custom" weight="bold">
+                      N
+                    </Text>
+                  </Box>
+                  <Box
+                    pad="medium"
+                    border={{ side: "all", color: "black", size: "medium" }}
+                    background="white"
+                    width="stretch"
+                  >
+                    <Text alignSelf="center" color="custom" weight="bold">
+                      Velocity2
+                    </Text>
+                    <Text alignSelf="center" color="custom" weight="bold">
+                      N
+                    </Text>
+                  </Box>
+                  <Box
+                    pad="medium"
+                    border={{ side: "all", color: "black", size: "medium" }}
+                    background="white"
+                    width="stretch"
+                  >
+                    <Text alignSelf="center" color="custom" weight="bold">
+                      Velocity3
+                    </Text>
+                    <Text alignSelf="center" color="custom" weight="bold">
+                      N
+                    </Text>
+                  </Box>
+                  <Box
+                    pad="medium"
+                    border={{ side: "all", color: "black", size: "medium" }}
+                    background="white"
+                    width="stretch"
+                  >
+                    <Text alignSelf="center" color="custom" weight="bold">
+                      Delivered
+                    </Text>
+                    <Text alignSelf="center" color="custom" weight="bold">
+                      N
+                    </Text>
+                  </Box>
+                </Box>
+                <Box gap="small" direction="row">
+                  <Box
+                    pad="medium"
+                    border={{ side: "all", color: "black", size: "medium" }}
+                    background="white"
+                    width="stretch"
+                  >
+                    <Text alignSelf="center" color="custom" weight="bold">
+                      Velocity
+                    </Text>
+                    <Text alignSelf="center" color="custom" weight="bold">
+                      N
+                    </Text>
+                  </Box>
+                  <Box
+                    pad="medium"
+                    border={{ side: "all", color: "black", size: "medium" }}
+                    background="white"
+                    width="stretch"
+                  >
+                    <Text alignSelf="center" color="custom" weight="bold">
+                      Velocity
+                    </Text>
+                    <Text alignSelf="center" color="custom" weight="bold">
+                      N
+                    </Text>
+                  </Box>
+                  <Box
+                    pad="medium"
+                    border={{ side: "all", color: "black", size: "medium" }}
+                    background="white"
+                    width="stretch"
+                  >
+                    <Text alignSelf="center" color="custom" weight="bold">
+                      Committed
+                    </Text>
+                    <Text alignSelf="center" color="custom" weight="bold">
+                      N
+                    </Text>
+                  </Box>
+                  <Box
+                    pad="medium"
+                    border={{ side: "all", color: "black", size: "medium" }}
+                    background="white"
+                    width="stretch"
+                  >
+                    <Text alignSelf="center" color="custom" weight="bold">
+                      Cycle Time
+                    </Text>
+                    <Text alignSelf="center" color="custom" weight="bold">
+                      N
+                    </Text>
+                  </Box>
+                </Box>
+              </Box>
+            </Box>
+          </AccordionPanel>
+          <AccordionPanel label="Sprint 3">
+            <Box direction="row" gap="small" width="stretch">
+              <Box
+                width="100%"
+                gap="small"
+                direction="column"
+                margin={{ vertical: "5%", right: "5%" }}
+              >
+                <Box gap="small" direction="row">
+                  <Box
+                    pad="medium"
+                    border={{ side: "all", color: "black", size: "medium" }}
+                    background="white"
+                    width="stretch"
+                  >
+                    <Text alignSelf="center" color="custom" weight="bold">
+                      Velocity
+                    </Text>
+                    <Text alignSelf="center" color="custom" weight="bold">
+                      N
+                    </Text>
+                  </Box>
+                  <Box
+                    pad="medium"
+                    border={{ side: "all", color: "black", size: "medium" }}
+                    background="white"
+                    width="stretch"
+                  >
+                    <Text alignSelf="center" color="custom" weight="bold">
+                      Velocity2
+                    </Text>
+                    <Text alignSelf="center" color="custom" weight="bold">
+                      N
+                    </Text>
+                  </Box>
+                  <Box
+                    pad="medium"
+                    border={{ side: "all", color: "black", size: "medium" }}
+                    background="white"
+                    width="stretch"
+                  >
+                    <Text alignSelf="center" color="custom" weight="bold">
+                      Velocity3
+                    </Text>
+                    <Text alignSelf="center" color="custom" weight="bold">
+                      N
+                    </Text>
+                  </Box>
+                  <Box
+                    pad="medium"
+                    border={{ side: "all", color: "black", size: "medium" }}
+                    background="white"
+                    width="stretch"
+                  >
+                    <Text alignSelf="center" color="custom" weight="bold">
+                      Delivered
+                    </Text>
+                    <Text alignSelf="center" color="custom" weight="bold">
+                      N
+                    </Text>
+                  </Box>
+                </Box>
+                <Box gap="small" direction="row">
+                  <Box
+                    pad="medium"
+                    border={{ side: "all", color: "black", size: "medium" }}
+                    background="white"
+                    width="stretch"
+                  >
+                    <Text alignSelf="center" color="custom" weight="bold">
+                      Velocity
+                    </Text>
+                    <Text alignSelf="center" color="custom" weight="bold">
+                      N
+                    </Text>
+                  </Box>
+                  <Box
+                    pad="medium"
+                    border={{ side: "all", color: "black", size: "medium" }}
+                    background="white"
+                    width="stretch"
+                  >
+                    <Text alignSelf="center" color="custom" weight="bold">
+                      Velocity
+                    </Text>
+                    <Text alignSelf="center" color="custom" weight="bold">
+                      N
+                    </Text>
+                  </Box>
+                  <Box
+                    pad="medium"
+                    border={{ side: "all", color: "black", size: "medium" }}
+                    background="white"
+                    width="stretch"
+                  >
+                    <Text alignSelf="center" color="custom" weight="bold">
+                      Committed
+                    </Text>
+                    <Text alignSelf="center" color="custom" weight="bold">
+                      N
+                    </Text>
+                  </Box>
+                  <Box
+                    pad="medium"
+                    border={{ side: "all", color: "black", size: "medium" }}
+                    background="white"
+                    width="stretch"
+                  >
+                    <Text alignSelf="center" color="custom" weight="bold">
+                      Cycle Time
+                    </Text>
+                    <Text alignSelf="center" color="custom" weight="bold">
+                      N
+                    </Text>
+                  </Box>
+                </Box>
+              </Box>
+            </Box>
+          </AccordionPanel>
+        </Accordion>
+      </Box>
+    </div>
+  );
+};
